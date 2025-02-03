@@ -1,15 +1,28 @@
+#profile_pic {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
 #logo {
   align-self: center;
   font-size: bold;
 }
 
-#title {
-  background-color: #0b0b52;
-  padding: 20px;
+#portfolio_title {
+  background-color: #dd4d35;
+  padding: 50px;
   font-size: 30px;
   color: white;
   justify-content: center;
   align-items: center;
+  font-family: montserrat;
+}
+
+#about_me {
+  padding: 40px;
+  font-family: montserrat;
 }
 
 .container {
@@ -26,4 +39,8 @@
   border: 2px solid black;
   padding: 5px;
   margin-bottom: 30px;
+}
+
+.flexcontainer {
+  flex-wrap: nowrap;
 }
