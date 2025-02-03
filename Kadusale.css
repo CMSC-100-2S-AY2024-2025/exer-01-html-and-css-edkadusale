@@ -1,28 +1,70 @@
+/*STYLING*/
+
 #profile_pic {
-  margin: 20px;
+  margin: 50px;
   width: 300px;
   height: 300px;
-  border-radius: 50%;
+  border-radius: 20%;
+  padding: 10px;
 }
 
-#logo {
-  align-self: center;
-  font-size: bold;
-}
-
-#portfolio_title {
-  background-color: #dd4d35;
-  padding: 50px;
-  font-size: 30px;
+#name_text {
   color: white;
+  font-size: 30px;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  font-family: montserrat;
 }
 
-#about_me {
-  padding: 40px;
+#navbar {
+  background-color: #dd4d35;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
   font-family: montserrat;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar a {
+  margin: 0 10px; 
+}
+
+#navbar #personal_logo {
+  width: 40px;
+  height: auto;
+}
+
+#intro_text {
+  padding: 140px;
+  font-family: montserrat;
+  color: white;
+  font-size: 25px;
+}
+
+#intro_div {
+  display: flex;
+  flex-direction: row;
+  background-color: #c5331a;
+  padding: 50px;
+}
+
+#personal_logo {
+  width: 120px;
+  margin-left: auto;
+}
+
+#skills_auto {
+  font-family: montserrat;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+  margin-top: 30px;
+  background-color: white;
 }
 
 .container {
@@ -30,6 +72,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: montserrat;
 }
 
 .flexcontainer {
