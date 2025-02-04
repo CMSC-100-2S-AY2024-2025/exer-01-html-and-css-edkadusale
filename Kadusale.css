@@ -41,7 +41,7 @@ body {
   color: white;
   text-decoration: none;
   font-weight:600;
-  transition: color 0.3s ease-in;
+  transition: color 0.2s ease-in;
 }
 
 #clickables a:hover {
@@ -59,7 +59,7 @@ body {
 
 #intro_text {
   padding: 60px;
-  font-family: montserrat;
+  font-family: montserrat, sans-serif;
   color: black;
   font-size: 20px;
 }
@@ -82,7 +82,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 80px;
+  margin: 0;
 
   font-family: montserrat;
   font-size: 20px;
@@ -116,7 +117,7 @@ body {
 #icons img {
   max-width: 50px;
   max-height: 50px;
-  transition: filter 0.3s ease-in;
+  transition: filter 0.2s ease-in;
 }
 
 #icons a:hover img {
@@ -149,6 +150,51 @@ body {
   width: 310px;
   height: 310px;
   margin: 0;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-family: montserrat;
+}
+
+#stat_prog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  border: 2px black;
+  margin-bottom: 40px;
+}
+
+#stat_dis {
+  width: 500px;
+  height: auto;
+
+  padding-left: 60px;
+}
+
+#technologies img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+  border: 2px black;
+
+}
+
+#skills_title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0px;
+
+
+  color: #dd4d35;
+  font-size: 40px;
 }
 
 hr {
