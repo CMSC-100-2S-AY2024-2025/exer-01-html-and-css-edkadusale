@@ -1,23 +1,32 @@
 /*STYLING*/
+body {
+  margin: 0;
+}
 
 #profile_pic {
-  margin: 50px;
+  margin: 30px;
   width: 300px;
   height: 300px;
   border-radius: 20%;
+  border: 100px black;
   padding: 10px;
 }
 
 #name_text {
-  color: white;
+  color: black;
   font-size: 30px;
+  font-family: montserrat;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 #navbar {
   background-color: #dd4d35;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 20px;
   font-weight: bold;
   color: white;
@@ -26,6 +35,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#clickables a {
+  color: white;
+  text-decoration: none;
+  font-weight:600;
+  transition: color 0.3s ease-in;
+}
+
+#clickables a:hover {
+  color:#000000 ; 
+  text-decoration: underline;
+}
+
+#intro_div {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 100px;
+  padding-bottom: 10px;
+}
+
+#intro_text {
+  padding: 60px;
+  font-family: montserrat;
+  color: black;
+  font-size: 20px;
 }
 
 #navbar a {
@@ -37,34 +73,88 @@
   height: auto;
 }
 
-#intro_text {
-  padding: 140px;
-  font-family: montserrat;
-  color: white;
-  font-size: 25px;
-}
-
-#intro_div {
-  display: flex;
-  flex-direction: row;
-  background-color: #c5331a;
-  padding: 50px;
-}
-
 #personal_logo {
   width: 120px;
   margin-left: auto;
 }
 
 #skills_auto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+
   font-family: montserrat;
   font-size: 20px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#all_elements_proj {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-direction: row;
+  justify-content: center;
+  
+  border-radius: 4%;
+  font-size: 20px;
+  background-color: #dd4d35;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+#icons img {
+  max-width: 50px;
+  max-height: 50px;
+  transition: filter 0.3s ease-in;
+}
+
+#icons a:hover img {
+  filter: brightness(0);
+}
+
+#projects_title {
+  display: flex;
+  justify-content: center;
+  
+  margin: 30px;
+  color: #dd4d35;
+  font-size: 40px;
+  font-family: montserrat;
+  transition: color 0.3s ease-in;
+
+}
+
+#projects_title:hover {
+  color:#000000 ; 
+}
+
+#main_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#logo_prog {
+  width: 310px;
+  height: 310px;
+  margin: 0;
 }
 
 hr {
   height: 2px;
   margin-top: 30px;
-  background-color: white;
+  background-color: black;
 }
 
 .container {
@@ -76,12 +166,17 @@ hr {
 }
 
 .flexcontainer {
-  display: flex;
-  width: 300px;
-  height: 200px;
-  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  border: 2px;
+  border-radius: 5%;
+  background-color: white;
   padding: 5px;
-  margin-bottom: 30px;
+  margin: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .flexcontainer {

@@ -3,13 +3,15 @@
 <head>
     <link rel="stylesheet" href="./Kadusale.css">
     <!-- Jan Edrian Kadusale Portfolio 2025 -->
-    <title>Home | Portfolio</title>
+    <title>Home | Ed's Portfolio</title>
 </head>
 <body>
     <div id="navbar">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about_me">About Me</a>
+        <div id="clickables">
+            <a href="#projects_title">My Projects</a>
+            <a href="#skills">My Skills</a>
+            <a href="#about_me">About Me</a>
+        </div>
 
         <img id="personal_logo" src="./essentials/prorgamming_logo_white.png">
     </div>
@@ -17,11 +19,25 @@
     <!-- Brief Introduction -->
     <div class="container" id="intro_div">
         <div>
+            <!-- Profile Picture & Name -->
             <h4 id="name_text">Edrian Kadusale</h4>
             <img id="profile_pic" src="./essentials/portfoliopic_ed.jpg" alt="My photo">
+
+            <!-- Links -->
+            <div id="icons">
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
+                    <img id="facebook" src="./essentials/icons/facebook-circular-logo.png">
+                </a>
+                <a href="https://www.linkedin.com/in/edriankadusale" target="_blank">
+                    <img id="linkedin" src="./essentials/icons/f92d3760fc8301b2129d40b47c6160d5.png">
+                </a>
+                <a href="https://github.com/edkadusale" target="_blank">
+                    <img id="github" src="./essentials/icons/25231.png">
+                </a>
+            </div>
         </div>
         <div id="intro_text">
-            <h3>Kumusta!👋 </h3>
+            <h1>Kumusta!👋 </h1>
             Hi, I am Ed! I am a BS Statistics student 📊 at the <b>University of the Philippines Los Baños</b>. I have an interest in Statistical Machine Learning, Statistical Theory, and Data Science.
             Although my primary focus has been on Mathematical and Applied Statistics, <b>programming is still a huge part of my life</b> — it's one of my favorite things to do when I am bored. 
             This portfolio showcases a few projects that I have worked on in the past. Moreover, I plan to expand this portfolio to feature more programming projects in the future. 🖥️
@@ -30,23 +46,62 @@
     </div>
 
     <!-- Personal Projects -->
-    <div class="container" id="projects">
-        <h3>Scientific Computing Project #1</h3>
-        <div class="flexcontainer" id="fc1">
-            <div class="flexItem" id="fi1">CMSC 12 Foundatinos of Computer Science</div>
-            <div class="flexItem" id="fi2">To-Do List CLI Tool</div>
+    <div id="main_title">
+        <img id="logo_prog" src="./essentials/prorgamming_logo_black.png">
+        <div id="projects_title">
+            <h2>Programming <br>Projects 👇</h2>
+        </div>
+    </div>
+
+
+    <div id="all_elements_proj">
+        <div class="container" id="projects">
+            <div class="flexcontainer" id="fc1">
+                <h3>Simple Programming Project</h3>
+                <div class="flexItem" id="fi1">CMSC 12 Foundatinos of Computer Science</div>
+                <div class="flexItem" id="fi2">To-Do List CLI Tool</div>
+            </div>
+    
+            <div class="flexcontainer" id="fc2">
+                <h3>Game Project</h3>
+                <div class="flexItem" id="fi3">CMSC 22 Object-Oriented Programming</div>
+                <div class="flexItem" id="fi4">SAGUPA: A 2-Player RTS, Hack-and-Slay Dueling Game</div>
+            </div>
+    
+            <div class="flexcontainer" id="fc3">
+                <h3>Scientific Computing Project</h3>
+                <div class="flexItem" id="fi5">CMSC 150 Numerical & Symbolic Computation</div>
+                <div class="flexItem" id="fi6">Nutrify: A Diet Problem Solver via Simplex Algorithm</div>
+            </div>
+    
+            <div class="flexcontainer" id="fc4">
+                <h3>Statistical Package Project</h3>
+                <div class="flexItem" id="fi7">STAT 181 Statistical Computing</div>
+                <div class="flexItem" id="fi8">Proppy: Test for One Population Proportion</div>
+            </div>
         </div>
 
-        <h3>Game Project</h3>
-        <div class="flexcontainer" id="fc2">
-            <div class="flexItem" id="fi3">CMSC 22 Object-Oriented Programming</div>
-            <div class="flexItem" id="fi4">SAGUPA: A 2-Player RTS, Hack-and-Slay Dueling Game</div>
-        </div>
+        <div class="container" id="project_images">
+            <div class="flexcontainer" id="fc1">
+                <h3>Simple Programming Project</h3>
+                <img src="./essentials/project images/cmsc 22/Gameplay Latest.png">
+            </div>
+    
+            <div class="flexcontainer" id="fc2">
+                <h3>Game Project</h3>
+                <img src="./essentials/project images/cmsc 22/sagupa_menu.png">
 
-        <h3>Scientific Computing Project</h3>
-        <div class="flexcontainer" id="fc3">
-            <div class="flexItem" id="fi5">CMSC 150 Numerical & Symbolic Computation</div>
-            <div class="flexItem" id="fi6">Nutrify: A Diet Problem Solver via Simplex Algorithm</div>
+            </div>
+    
+            <div class="flexcontainer" id="fc3">
+                <h3>Scientific Computing Project</h3>
+                <img src="./essentials/project images/cmsc 150/nutrify_guide.png">
+            </div>
+    
+            <div class="flexcontainer" id="fc4">
+                <h3>Statistical Package Project</h3>
+                <img src="./essentials/project images/cmsc 22/sagupa_menu.png">
+            </div>
         </div>
     </div>
 
