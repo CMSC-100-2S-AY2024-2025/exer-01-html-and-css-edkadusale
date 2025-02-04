@@ -69,7 +69,7 @@ body {
 }
 
 #navbar #personal_logo {
-  width: 40px;
+  width: 80px;
   height: auto;
 }
 
@@ -120,7 +120,7 @@ body {
   transition: filter 0.2s ease-in;
 }
 
-#icons a:hover img {
+#icons img:hover {
   filter: brightness(0);
 }
 
@@ -184,9 +184,29 @@ body {
   margin-right: 10px;
   border: 2px black;
 
+  transition: filter 0.1s ease-in;
 }
 
-#skills_title {
+#technologies img:hover {
+  filter: brightness(40%);
+}
+
+#about_me {
+  margin: 50px;
+  margin-top: 90px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+hr {
+  height: 2px;
+  margin-top: 30px;
+  background-color: black;
+}
+
+.titles {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -195,12 +215,6 @@ body {
 
   color: #dd4d35;
   font-size: 40px;
-}
-
-hr {
-  height: 2px;
-  margin-top: 30px;
-  background-color: black;
 }
 
 .container {
