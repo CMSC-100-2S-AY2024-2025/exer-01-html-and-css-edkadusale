@@ -1,6 +1,7 @@
 /*STYLING*/
 body {
   margin: 0;
+  font-family: montserrat;
 }
 
 #profile_pic {
@@ -15,7 +16,6 @@ body {
 #name_text {
   color: black;
   font-size: 30px;
-  font-family: montserrat;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -30,7 +30,6 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  font-family: montserrat;
 
   display: flex;
   justify-content: space-between;
@@ -59,7 +58,6 @@ body {
 
 #intro_text {
   padding: 60px;
-  font-family: montserrat, sans-serif;
   color: black;
   font-size: 20px;
 }
@@ -85,7 +83,6 @@ body {
   padding: 80px;
   margin: 0;
 
-  font-family: montserrat;
   font-size: 20px;
 }
 
@@ -131,7 +128,6 @@ body {
   margin: 30px;
   color: #dd4d35;
   font-size: 40px;
-  font-family: montserrat;
   transition: color 0.3s ease-in;
 
 }
@@ -159,7 +155,6 @@ body {
   margin: 0;
   padding-left: 90px;
   padding-right: 90px;
-  font-family: montserrat;
 }
 
 #stat_prog {
@@ -222,17 +217,15 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: montserrat;
 }
 
 .flexcontainer {
   width: 500px;
   height: 300px;
   border: 2px;
-  border-radius: 5%;
-  background-color: white;
   padding: 5px;
   margin: 30px;
+  color: white;
 
   display: flex;
   flex-direction: column;
