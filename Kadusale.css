@@ -210,6 +210,11 @@ hr {
 
   color: #dd4d35;
   font-size: 40px;
+  transition: color 0.3s ease-in;
+}
+
+.titles:hover {
+  color:#000000 ; 
 }
 
 .container {
@@ -220,12 +225,13 @@ hr {
 }
 
 .flexcontainer {
-  width: 500px;
+  width: 600px;
   height: 300px;
   border: 2px;
-  padding: 5px;
+  padding: 3px;
   margin: 30px;
   color: white;
+  font-size: 23px;
 
   display: flex;
   flex-direction: column;
